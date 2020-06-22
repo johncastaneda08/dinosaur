@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="3"
+  SkinType="WebHelp2"
+  ComponentType="MasterPage"
+  TemplateName="Fluid"
+  Comment="HTML5 Side Navigation skin"
+  EnableResponsiveOutput="True"
+  AutoSyncTOC="true">
+  <WebHelpOptions
+    NavigationPanePosition="Right"
+    OffCanvasMenuStyle="Accordion"
+    MainMenuPosition="Left"
+    EnableSticky="All" />
+  <Stylesheet>
+    <Resources>
+      <Resource
+        Name="arrow-downbak.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0nxAzMnBBiSZfGUzgVSpp4tjiMbE3osbORsMBNweTn8hEXlAN+bMpWv3Lp07pChzmJHloKjIlGZhlXmz9nt/2qe17nU7T8EBv1tFDz44cPs4eCQ43o5KWDr9MT/frRNSjdwB/x5YTyr7WjXDvqBnydOm/Bsuhls2dOpIJAuffOK/xjPixeFvHA3C551lv632aTwEdACDp6ufyzqnhCYAT/Wk+a4AAAA=</Resource>
+    </Resources>
+    <Styles>
+      <Style
+        Name="Side Navigation Menu Item">
+        <Properties>
+          <Property
+            Name="BackgroundImage">none</Property>
+        </Properties>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <Strings />
+</CatapultSkin>

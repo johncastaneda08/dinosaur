@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="To Do Note"
+    Comment="Note as a reminder to make a change later (ie add link)" />
+  <ConditionTag
+    BackgroundColor="#f62305"
+    Name="Internal Flare link"
+    Comment="ALWAYS EXCLUDE THIS CONDITION FOR PUBLISHING TARGETS" />
+  <ConditionTag
+    BackgroundColor="#fff300"
+    Name="Dev Link"
+    Comment="DEV VERSION ONLY"
+    OriginalName="Dev Link" />
+  <ConditionTag
+    BackgroundColor="#3fff00"
+    Name="Live HS link"
+    Comment="For clean XHTML outputs" />
+  <ConditionTag
+    BackgroundColor="#00fbff"
+    Name="Keywords"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#c000ff"
+    Name="Not for HS"
+    Comment="To exclude from HelpScout (title, breadcrumbs)" />
+  <ConditionTag
+    BackgroundColor="#0a0a0a"
+    Name="French"
+    Comment="For French HS" />
+  <ConditionTag
+    BackgroundColor="#f0f8ff"
+    Name="English"
+    Comment="Exclude from French" />
+  <ConditionTag
+    BackgroundColor="#008b8b"
+    Name="UK"
+    Comment="For UK HS" />
+  <ConditionTag
+    BackgroundColor="#ff009f"
+    Name="Ontario"
+    Comment="For Cdn spelling"
+    OriginalName="Ontario" />
+  <ConditionTag
+    BackgroundColor="#f5f5dc"
+    Name="US"
+    Comment="For US"
+    OriginalName="US" />
+  <ConditionTag
+    BackgroundColor="#d2691e"
+    Name="Cdn"
+    Comment="" />
+</CatapultConditionTagSet>

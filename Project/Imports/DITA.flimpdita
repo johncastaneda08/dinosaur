@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DitaImport
+  KeepSourceLinks="True"
+  LastImport="2020-06-10T20:11:36.1988354-07:00">
+  <Files>
+    <Url
+      Source="../../../edmoor/S017806/org.oasis-open.dita.v1_3/legal-notices-c-Opera.xml"
+      AbsoluteSource="file:///C:/Users/madmin/Documents/edmoor/S017806/org.oasis-open.dita.v1_3/legal-notices-c-Opera.xml" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles>
+    <Url
+      Source="../../../edmoor/S017806/org.oasis-open.dita.v1_3/legal-notices-c-Opera.xml"
+      AbsoluteSource="file:///C:/Users/madmin/Documents/edmoor/S017806/org.oasis-open.dita.v1_3/legal-notices-c-Opera.xml" />
+  </CollectedSourceFiles>
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/DITA/legal-notices-c-Opera.htm"
+      TimeStamp="6/10/2020 8:10:45 PM" />
+    <Url
+      Source="../TOCs/legal-notices-c-Opera.fltoc"
+      TimeStamp="6/10/2020 8:10:45 PM" />
+    <Url
+      Source="../../Content/DITA/DITA.css"
+      TimeStamp="6/10/2020 8:10:45 PM" />
+  </GeneratedFiles>
+  <ImportStyles />
+</DitaImport>

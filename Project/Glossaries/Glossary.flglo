@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="Glossary.Term0">
+    <Terms>
+      <Term>My Term</Term>
+    </Terms>
+    <Definition>My definition</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term1"
+    TermClass="Popup"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Topic</Term>
+    </Terms>
+    <Definition
+      Link="">its a topic</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

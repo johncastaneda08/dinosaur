@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <MadCap:conditionalText MadCap:conditions="Default.US">Choose a version </MadCap:conditionalText>
+        <MadCap:conditionalText MadCap:conditions="Default.Ontario,Default.Cdn">Click the image </MadCap:conditionalText>below to make a copy of the handout in your Google Drive. Edit the copy and share it with your students.</body>
+</html>

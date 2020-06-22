@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    glossTerm="SAAS_Acronyms.Term1"
+    TermClass="Popup"
+    Stem=""
+    conditions="Default.Web"
+    IgnoreCase="false">
+    <Terms>
+      <Term>MMC</Term>
+    </Terms>
+    <Definition
+      Link="">Materiel Management Center</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="SAAS_Acronyms.Term0"
+    TermClass="Popup"
+    Stem=""
+    IgnoreCase="false"
+    conditions="Default.Web">
+    <Terms>
+      <Term>SAAS</Term>
+    </Terms>
+    <Definition
+      Link="">Standard Army Ammunition System</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="SAAS_Acronyms.Term5"
+    conditions="Default.Web"
+    TermClass="Popup"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>C&amp;P</Term>
+    </Terms>
+    <Definition
+      Link="">Component and Packaging</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="SAAS_Acronyms.Term6"
+    TermClass="Popup"
+    conditions="Default.Web"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>EAC</Term>
+    </Terms>
+    <Definition
+      Link="">Echelons Above Corps</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

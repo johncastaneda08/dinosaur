@@ -1,0 +1,600 @@
+/*<meta />*/
+
+/* *****HEADER - GLANCE***** */
+
+.glance h1
+{
+	color: #828282;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 10pt;
+	font-family: 'Proxima Nova Lt', Helvetica, Arial, sans-serif;
+	letter-spacing: 0.25px;
+}
+
+.glance h2
+{
+	color: #484848;
+	font-size: 18pt;
+	margin-top: 5px;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.clearfix::after	/* may not need this */
+{
+	content: "";
+	width: 100%;
+}
+
+.box	/* div to hold the p content in glance */
+{
+	float: left;
+	width: 18.33%;
+	height: 30px;
+	padding-left: 2px;
+	padding-top: 2px;
+	line-height: 10pt;
+	color: #737373;
+}
+
+.box p
+{
+	font-size: 8pt;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	line-height: 1;
+}
+
+.boximg	/* div to hold icon images - concept, time, grade */
+{
+	float: left;
+	width: 6%;
+	height: 30px;
+	vertical-align: bottom;
+}
+
+.boximg img	/* style for the icon images - concept, time, grade */
+{
+	height: 32px;
+	width: 32px;
+}
+
+/* *****SIDEBAR***** */
+
+.sidebar	/* grey sidebar, including entry box on overview page */
+{
+	width: 200px;
+	height: 757px;
+	padding-right: 12px;
+	padding-left: 16px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	float: right;
+	margin-right: 0px;
+	margin-top: 30px;
+}
+
+.entry	/* green box about entry to xello */
+{
+	width: 170px;
+	padding-left: 8px;
+	padding-right: 5px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-color: #e6f3d2;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	mc-float: none;
+	background-color: #e6f3d2;
+	margin-bottom: 20px;
+}
+
+.entry p
+{
+	font-size: 8pt;
+	line-height: 10pt;
+	mc-hyphenate: never;
+	color: #737373;
+	margin-bottom: 10px;
+	letter-spacing: 0.75px;
+	color: #262626;
+}
+
+.sidebar img	/* xello dude image */
+{
+	width: 14px;
+	height: 14px;
+	float: left;
+	background: transparent;
+	padding-bottom: 0px;
+	padding-right: 2px;
+}
+
+.sidebar h2
+{
+	font-size: 10pt;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	font-weight: 900;
+	margin-bottom: 5px;
+	mc-heading-level: 0;
+	color: #484848;
+	padding-left: 5px;
+	letter-spacing: 0.75px;
+}
+
+.sidebar ul
+{
+	line-height: 1.15;
+	mc-hyphenate: never;
+	margin-top: -1px;
+	margin-left: 20px;
+	padding-left: 18px;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+
+.sidebar li
+{
+	list-style-type: none;
+	font-size: 8pt;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	mc-hyphenate: never;
+	color: #484848;
+	list-style-position: outside;
+	line-height: 1.15;
+	text-align: left;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.sidebar li::before	/* bullet point before list items in sidebar */
+{
+	content: "\2022";
+	color: #484848;
+	font-weight: 900;
+	font-size: 18pt;
+	display: block;
+	position: absolute;
+	float: left;
+	margin-top: -8px;
+	line-height: 1.15;
+	margin-left: -20px;
+	margin-right: 11px;
+	padding-left: 0px;
+}
+
+.sidebar p
+{
+	font-size: 8pt;
+	line-height: 10pt;
+	mc-hyphenate: never;
+	margin-bottom: 10px;
+	letter-spacing: 0.75px;
+	color: #484848;
+	padding-left: 5px;
+}
+
+.handout
+{
+	
+}
+
+.handout__thumbnail img
+{
+	width: auto;
+	height: 102px;
+	padding: 15 0 20 40px;
+	display: inline;
+	vertical-align: top;
+	float: none;
+}
+
+.handout-button
+{
+	border: 2px solid #905da7;
+	border-radius: 12px;
+	padding: 5 5 5 15px;
+	margin: -5 0 0 0px;
+	height: 30px;
+	width: 180px;
+}
+
+.handout-button__icon
+{
+	float: right;
+	padding-left: -25px;
+	padding-top: -12px;
+}
+
+.handout-button a
+{
+	font-weight: 900;
+	font-size: 8pt;
+}
+
+/* *****MAIN BODY CONTENT***** */
+
+.main	/* main body DIV. for activity pages, steps-list are outside of this div. Need to add this class back in before Message to students */
+{
+	float: left;
+	width: 70%;
+	text-align: left;
+	padding-right: 5px;
+}
+
+.main h2
+{
+	color: #484848;
+	font-size: 12pt;
+	align: left;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-weight: bolder;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	mc-heading-level: 0;
+}
+
+h2.inquiry	/* use on first h2 on for extra spacing under glance */
+{
+	color: #484848;
+	padding-top: 35px;
+	padding-bottom: 0;
+	mc-heading-level: 0;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.main p
+{
+	font-size: 10pt;
+	line-height: 1.15;
+	mc-hyphenate: never;
+	color: #484848;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+}
+
+.semibold
+{
+	mc-hyphenate: never;
+	color: #484848;
+	font-family: 'Proxima Nova Lt', Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+}
+
+.main ul
+{
+	margin-left: 50px;
+	line-height: 1.15;
+	mc-hyphenate: never;
+	margin-top: -3px;
+}
+
+.main li
+{
+	list-style-type: none;
+	font-size: 10pt;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	mc-hyphenate: never;
+	color: #484848;
+	list-style-position: outside;
+	line-height: 1.15;
+	text-align: left;
+	padding-left: -20px;
+	margin-top: 1px;
+}
+
+.main li::before	/* bullet point before a li */
+{
+	content: "\2022";
+	color: #484848;
+	font-weight: 900;
+	font-size: 25px;
+	display: block;
+	position: absolute;
+	float: left;
+	margin-right: 0px;
+	padding-left: 22px;
+	margin-top: -1px;
+	line-height: 16px;
+	margin-left: -20px;
+}
+
+h2.french	/* use for extra space above an h2 on a cramped page */
+{
+	color: #484848;
+	font-size: 12pt;
+	align: left;
+	padding-top: 8px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+	font-weight: bolder;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	mc-heading-level: 0;
+}
+
+/* FUTURE-READY SKILLS */
+
+.driving-q	/* Purple future-ready skills section */
+{
+	width: auto;
+	height: 14pt;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #905da7;
+	background-color: #905da7;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+
+.driving-q p	/* font */
+{
+	color: #ffffff;
+	font-size: 8pt;
+	color: white;
+	letter-spacing: 1px;
+	padding-top: 2px;
+}
+
+/* LESSON BREAKDOWN */
+
+.time	/* time box */
+{
+	width: 45px;
+	height: 45px;
+	float: left;
+	clear: left;
+	padding: 12px 1px 3px 1px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #b474d1;
+	float: left;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 15px;
+	align: middle;
+	color: #484848;
+}
+
+.time p	/* content other than the digits in the time box (usually "minutes") */
+{
+	font-size: 7pt;
+	font-weight: bold;
+	line-height: 8pt;
+	color: #484848;
+	font-family: 'Proxima Nova Lt', Helvetica, Arial, sans-serif;
+}
+
+p.min	/* the numbered digits */
+{
+	font-size: 9pt;
+	font-weight: bolder;
+	line-height: 8pt;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	letter-spacing: condensed;
+	margin-bottom: -8px;
+	color: #484848;
+}
+
+h3	/* primarily used for Lesson Breakdown titles */
+{
+	color: #484848;
+	font-size: 10pt;
+	font-weight: bold;
+	mc-heading-level: 0;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	margin-bottom: -3px;
+}
+
+a
+{
+	color: #027baf;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+}
+
+.breakdown-desc	/* div to hold title/link and short desc */
+{
+	float: left;
+	width: 370px;
+	height: 50px;
+	margin-top: 10px;
+	mc-hyphenate: never;
+}
+
+.breakdown-desc p	/* short description of the activity */
+{
+	font-size: 8pt;
+	color: #484848;
+	line-height: 10pt;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	letter-spacing: 0.75px;
+}
+
+/* *****ACTIVITY PAGE***** */
+
+.steps	/* used as a separate div between two mains. encompasses just the ol */
+{
+	float: left;
+	width: 70%;
+	text-align: left;
+	padding-right: 5px;
+	font-size: 10pt;
+	mc-hyphenate: never;
+	color: #484848;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+}
+
+ol.steps-list
+{
+	margin-left: 20px;
+	line-height: 1.15;
+	page-break-inside: avoid;
+	list-style-type: none;
+	padding: 7 0 7 0px;
+	counter-reset: counter;
+}
+
+.steps-list li
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	list-style-position: outside;
+	padding-left: 5px;
+	text-align: left;
+}
+
+ol.steps-list > li:before	/* bullet point styled before the li */
+{
+	counter-increment: counter;
+	content: "" counter(counter);
+	background: #905da7;
+	padding: 6 2 2 8px;
+	border-radius: 20px;
+	color: #fff;
+	height: 9px;
+	width: 15px;
+	text-indent: -3px;
+	font-size: 7pt;
+	font-weight: 900;
+	display: block;
+	line-height: 7px;
+	position: absolute;
+	float: left;
+	margin-top: 0px;
+	margin-left: -20px;
+}
+
+.steps ul
+{
+	margin-left: 50px;
+	line-height: 1.15;
+	mc-hyphenate: never;
+	margin-top: 3px;
+	padding-top: 5px;
+}
+
+.steps ul li
+{
+	list-style: none;
+	font-size: 10pt;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	mc-hyphenate: never;
+	color: #484848;
+	list-style-position: outside;
+	line-height: 1.15;
+	text-align: left;
+	padding-left: 0px;
+	margin-top: 1px;
+}
+
+.steps ul > li:before	/* bullet point styled before the li */
+{
+	list-style: none;
+	content: "\2022";
+	color: #484848;
+	font-weight: 900;
+	font-size: 25px;
+	display: block;
+	position: absolute;
+	float: left;
+	margin-right: 6px;
+	padding-left: 2px;
+	margin-top: -1px;
+	line-height: 10px;
+	margin-left: -17px;
+	padding-top: 6px;
+	padding-bottom: -6px;
+}
+
+span.message	/* message to students, lightly bolded */
+{
+	font-size: 10pt;
+	line-height: 1.15;
+	mc-hyphenate: never;
+	color: #484848;
+	font-family: 'Proxima Nova Lt', Helvetica, Arial, sans-serif;
+	font-weight: Bolder;
+}
+
+hr
+{
+	border-color: #979797;
+	height: 1px;
+	border-top-width: 0.5px;
+	border-right-width: 0.5px;
+	border-left-width: 0.5px;
+	border-bottom-width: 0.5px;
+	margin-top: -20px;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+/* *****SAFETY NET***** */
+
+a:link
+{
+	color: #027baf;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+}
+
+h1
+{
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+}
+
+h2
+{
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+	font-weight: 900;
+}
+
+ol
+{
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+}
+
+ul
+{
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+}
+
+div
+{
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+}
+
+p
+{
+	color: #484848;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+}
+
+li
+{
+	color: #484848;
+	font-family: 'Proxima Nova Rg', Helvetica, Arial, sans-serif;
+}
+

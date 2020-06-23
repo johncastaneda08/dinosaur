@@ -2,22 +2,25 @@
 <CatapultTarget
   Version="2"
   Comment="MadCap HTML5 Target"
-  Type="PDF"
+  Type="WebHelp2"
   Destinations=""
   ShowMadCapBacklink="true"
   GlossaryTermConversion="first"
   MasterToc="/Project/TOCs/Master.fltoc"
-  MasterStylesheet="/Content/Resources/Stylesheets/3-5 Supplementary Activities.css"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
   ExcludeUnreferencedContent="true"
   MasterStylesheetOverride="true"
-  MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl"
-  ConditionTagExpression="exclude[Default.Cdn or &quot;Default.Dev Link&quot; or Default.French or &quot;Default.Internal Flare link&quot; or Default.Keywords or &quot;Default.Live HS link&quot; or &quot;Default.Not for HS&quot; or Default.Ontario or &quot;Default.To Do Note&quot; or Default.UK]">
+  ConditionTagExpression="exclude[Default.Cdn or &quot;Default.Dev Link&quot; or Default.French or &quot;Default.Internal Flare link&quot; or Default.Keywords or &quot;Default.Live HS link&quot; or &quot;Default.Not for HS&quot; or Default.Ontario or &quot;Default.To Do Note&quot; or Default.UK]"
+  PartialWordSearch="true"
+  Skin="/Project/Skins/tpane.flskn"
+  MinimumWordSize="4">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="false"
     GenerateIndexProxy="false"
     GenerateGlossaryProxy="false"
-    OutputFormat="docx" />
+    OutputFormat="docx"
+    PreserveTrackedChanges="true" />
   <Glossaries>
     <Glossary
       Link="/Project/Glossaries/Glossary.flglo" />

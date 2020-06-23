@@ -1,31 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="fr">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
-        <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <MadCap:changeData>
+            <MadCap:AddChange MadCap:userName="madmin" MadCap:initials="MA" MadCap:id="1" MadCap:timestamp="2020-06-23T12:30:19.4072166-07:00" />
+        </MadCap:changeData>
     </head>
     <body>
-        <h1>Topic Title</h1>
-        <ol>
-            <li>asdfasfdasdfasdf<ol style="list-style-type: lower-alpha;"><li>asdfasdfasdfasdf</li><li>asdfasdf</li><li>asdfasdf</li></ol></li>
-            <li>sdf</li>
-            <li>asdfasdf</li>
-            <li>adsfasdfasdf</li>
-            <li>asdfas</li>
-        </ol>
+        <h1>SOME&#160;TITLE&#160;HERE</h1>
         <p>acquire </p>
         <p>acquires</p>
         <p>will acquire</p>
-        <p>this is a topic</p>
-        <p>topic</p>
-        <p>topic</p>
-        <p>Topic</p>
-        <p>more Topic</p>
-        <p>SAAS</p>
-        <p>EAC</p>
-        <p>C&amp;P</p>
-        <p>MMC</p>
-        <p>&#160;</p>
-        <h1>SOME&#160;TITLE&#160;HERE</h1>
+        <p MadCap:changes="1">&#160;</p>
+        <p MadCap:changes="1">&#160;</p>
         <p>something here</p>
         <table style="width: 100%;">
             <col />

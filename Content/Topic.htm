@@ -40,6 +40,34 @@
                 </p>
             </li>
         </ol>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve">
+                <MadCap:conditionalText MadCap:conditions="Global.ON">
+					# Terminal Configuration properties
+					# ---------------------------------
+					TRANSACTION_POLL_TIME=50
+					SHOULD_USE_PORT=false
+					com.ncr.cxth.ndc.transactions.threads=4
+					com.ncr.cxth.ndc.workflow.threads=4
+					com.ncr.cxth.ndc.invalidtxnstate.command.
+				restriction.time.minutes=15</MadCap:conditionalText>
+                <MadCap:conditionalText MadCap:conditions="Global.OFF">
+
+					# Distributed Cache properties
+					# ------------------------
+					#com.ncr.cxth.ndc.hazelcast.group.name=ndc-cache
+					#com.ncr.cxth.ndc.hazelcast.group.password=ENC(WNMO/F5M1bVtR9Wxm6+5/m5aE8ZXF8P6)
+					#com.ncr.cxth.ndc.hazelcast.merge.first.run.delay.seconds=5
+					#com.ncr.cxth.ndc.hazelcast.merge.next.run.delay.seconds=5
+					#com.ncr.cxth.ndc.hazelcast.phone.home.enabled=false
+					#com.ncr.cxth.ndc.hazelcast.socket.bind.any=false
+					#com.ncr.cxth.ndc.hazelcast.jmx.enabled=false
+					#com.ncr.cxth.ndc.hazelcast.network.port=5701
+				#com.ncr.cxth.ndc.hazelcast.network.members=127.0.0.1</MadCap:conditionalText>
+
+</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
         <h1>SOME&#160;TITLE&#160;HERE </h1>
         <p><span style="font-family: 'Segoe UI Emoji'">▸▸</span>
         </p>
